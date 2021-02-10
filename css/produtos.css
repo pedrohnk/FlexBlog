@@ -1,0 +1,51 @@
+.produtos{
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.produtos h1{
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.produtos-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+  min-width: 175px;
+}
+
+.produtos-item h2{
+  font-size: 3em;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.purple{
+  cursor: pointer;
+  border-top: 8px solid #ae81ff;
+  transition: all 0.3s ease-in;
+}
+
+.pink{
+  cursor: pointer;
+  border-top: 8px solid #f9265e;
+  transition: all 0.3s ease-in;
+  align-self: flex-end;
+}
+
+.blue{
+  cursor: pointer;
+  border-top: 8px solid #66d9eb;
+  transition: all 0.5s ease-in;  
+}
+
+.purple:hover, .blue:hover, .pink:hover{
+  transform: scale(1.1);
+}
